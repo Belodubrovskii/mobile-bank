@@ -1,0 +1,42 @@
+.card-btn {
+  display: flex;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  height: 72px;
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #F1F3F9;
+  cursor: pointer;
+  outline-style: none;
+  transition: opacity 0.3s;
+}
+
+.card-btn:hover {
+  opacity: 0.8;
+}
+
+.card-btn__img {
+  width: 33px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 16px;
+  object-position: center;
+}
+
+.card-btn__number {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #141414;
+}
+
+.card-btn__select {
+  margin-left: auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #0083E1;
+}

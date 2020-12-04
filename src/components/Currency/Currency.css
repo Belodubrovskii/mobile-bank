@@ -1,0 +1,40 @@
+.currency {
+  width: 100px;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(139, 164, 187, 0.12);
+  border-radius: 16px;
+  color: #8C9AAE;
+  border: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.currency:hover {
+  opacity: 0.8;
+}
+
+.currency_active {
+  background: #0083E1;
+  color: #FFFFFF;
+}
+
+.currency__char {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  margin: 0 0 4px;
+}
+
+.currency__code {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}

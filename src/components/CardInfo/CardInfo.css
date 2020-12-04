@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(139, 164, 187, 0.12);
+  border-radius: 16px;
+  height: 225px;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 28px 22px;
+}
+
+.card__payment-logo {
+  width: 39px;
+  height: 24px;
+  margin-right: 18px;
+}
+
+.card__number {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  color: #141414;
+  margin: 0;
+}
+
+.card__profile-img {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../images/profile.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 14px;
+}
+
+.card__user-name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #8C9AAE;
+  margin: 0;
+}
+
+.card__date-label {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 16px;
+  color: #8C9AAE;
+  margin: 0;
+}
+
+.card__date {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #8C9AAE;
+  margin: 0;
+}
+
+.card__current-currency {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #141414;
+  margin: 0;
+}
+
+.card__balance-label {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #8C9AAE;
+  margin: 0 0 4px;
+}
+
+.card__balance {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #141414;
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+}

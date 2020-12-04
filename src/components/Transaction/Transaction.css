@@ -1,0 +1,65 @@
+.transaction {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+  padding-right: 22px;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+}
+
+.transaction:last-of-type {
+  margin-bottom: 0;
+}
+
+.transaction__logo {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #EAEEF9;
+  box-sizing: border-box;
+  border-radius: 12px;
+  object-position: center;
+  object-fit: scale-down;
+  margin-right: 17px;
+}
+
+.transaction__company {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin: 0;
+}
+
+.transaction__date {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.00636364em;
+  color: #8C9AAE;
+  margin: 0;
+}
+
+.transaction__selected-valute-amount {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 0.0145455em;
+  color: #141414;
+  margin: 0;
+}
+
+.transaction__amount {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.0145455em;
+  color: #8C9AAE;
+  margin: 0;
+}

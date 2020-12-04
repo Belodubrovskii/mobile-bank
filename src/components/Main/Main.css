@@ -1,0 +1,22 @@
+.main-page {
+  background: #F1F3F9;
+  width: 100%;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+.main-page__title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.019em;
+  color: #141414;
+  margin: 40px 0 28px;
+}
+
+.main-page__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
